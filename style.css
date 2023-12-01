@@ -1,0 +1,20 @@
+@import url("css/reset.css");
+@import url("css/cabecalho.css");
+@import url("css/sobre.css");
+
+:root {
+	--preto: #101828;
+	--branco: #ffffff;
+	--cinza: #667085;
+	--cinza-escuro: #3a404e;
+	--vermelho: #8e2424;
+
+	--fonte-principal: "Inter", sans-serif;
+}
+
+body {
+	background-color: var(--branco);
+	font-size: 16px;
+	font-family: var(--fonte-principal);
+	font-weight: 400;
+}

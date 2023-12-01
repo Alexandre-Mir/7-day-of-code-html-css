@@ -1,0 +1,30 @@
+.conteudo__sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5em 0;
+	gap: 2em;
+}
+.conteudo__sobre-subtitulo {
+	color: var(--vermelho);
+	font-weight: 600;
+}
+
+.conteudo__sobre-titulo {
+	color: var(--preto);
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.conteudo__sobre-texto {
+	color: var(--cinza);
+	font-size: 1.2em;
+	width: 40%;
+	text-align: center;
+}
+/* PAREI AQUI */
+.conteudo__sobre-infos {
+	display: flex;
+	margin: 2em 10em;
+	gap: 2em;
+}

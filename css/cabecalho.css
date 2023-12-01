@@ -1,0 +1,38 @@
+.cabecalho__nav,
+.cabecalho__logo,
+.cabecalho__lista {
+	align-items: center;
+	display: flex;
+}
+
+.cabecalho__nav {
+	justify-content: space-evenly;
+	padding: 2em 0;
+}
+
+.cabecalho__logo {
+	gap: 0.5em;
+}
+
+.cabecalho__logo-nome {
+	color: var(--cinza-escuro);
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.cabecalho__lista {
+	gap: 2em;
+}
+
+.cabecalho__lista-link {
+	color: var(--cinza);
+	font-weight: 500;
+}
+
+.botao {
+	background-color: var(--vermelho);
+	border-radius: 8px;
+	color: var(--branco);
+	padding: 1em;
+	box-shadow: 0px 1px 2px 0px #1018280d;
+}
